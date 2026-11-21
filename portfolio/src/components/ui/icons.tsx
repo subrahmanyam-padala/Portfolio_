@@ -1,0 +1,35 @@
+import {
+  Binary,
+  Boxes,
+  Code2,
+  Cpu,
+  Database,
+  KeyRound,
+  LayoutTemplate,
+  Library,
+  Network,
+  RefreshCw,
+  Server,
+  Webhook,
+  Workflow,
+  Wrench,
+  type LucideIcon,
+} from 'lucide-react';
+import type { IconKey } from '../../data/types';
+
+export const ICONS: Record<IconKey, LucideIcon> = {
+  code: Code2,
+  server: Server,
+  layout: LayoutTemplate,
+  database: Database,
+  wrench: Wrench,
+  library: Library,
+  webhook: Webhook,
+  key: KeyRound,
+  boxes: Boxes,
+  binary: Binary,
+  cpu: Cpu,
+  network: Network,
+  workflow: Workflow,
+  refresh: RefreshCw,
+};
